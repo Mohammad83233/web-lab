@@ -1,0 +1,151 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f9;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h2 {
+  color: #444;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #555;
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* Form Styles */
+form {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+}
+
+form input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+form button {
+  width: 50%;
+  padding: 10px;
+  background: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+form button:hover {
+  background: #0056b3;
+}
+
+/* Links */
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #007bff;
+  margin-top: 20px;
+  text-align: center;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* Profile Page */
+.profile-container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.profile-container h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.profile-container p {
+  font-size: 1.1rem;
+  margin: 5px 0;
+}
+
+.logout-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.logout-button:hover {
+  background: #c82333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  form,
+  .profile-container {
+    width: 90%;
+  }
+}
+
+.redirect-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.redirect-button:hover {
+  background-color: #218838;
+}
+
+.redirectto-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #ff3434;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.redirectto-button:hover {
+  background-color: #7d1616;
+}
