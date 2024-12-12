@@ -1,0 +1,12 @@
+CREATE DATABASE student_details;
+
+USE student_details;
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL
+);
+INSERT INTO users (username, password) VALUES
+('student1', 'password123'),
+('student2', 'mypassword');
